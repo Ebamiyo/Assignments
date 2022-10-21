@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "chefMate",
+			"path": "../../../chefMate"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Tasks"
+	}
+}
