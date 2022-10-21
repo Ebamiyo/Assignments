@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Membership Registration</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h2>REGISTER</h2>
+  </header>
+  <main>
+    <section class="mainsection">
+      <form action="./successregister.html">
+        <div class="container">
+          <div class="firsthalve">
+            <label for="first-Name">
+              First Name
+            </label>
+            <br>
+            <input class="input" type="text" required>
+            <br>
+            <label for="last-Name">
+              Last Name
+            </label>
+            <br>
+            <input class="input" type="text" required>
+            <br>
+            <label for="phonenumber">
+              Phone Number
+            </label>
+            <br>
+            <input class="input" type="tel" required>
+            <br>
+          </div>
+          <div class="secondhalve">
+            <label for="email">
+              Email
+            </label>
+            <br>
+            <input class="input" type="email" required>
+            <br>
+            <label for="gender">
+              Gender
+            </label>
+            <br>
+            <select class="input" name="gender" id="gender">
+              <option value="female">Female</option>
+              <option value="male">Male</option>
+              <option value="rathernotsay">Rather not say</option>
+            </select>
+            <br>
+            <label for="dateofbirth">
+              Date of Birth
+            </label>
+            <br>
+            <input class="input" type="date" required>
+            <br>
+          </div>
+          <br>
+          <div class="bottompart">
+            <label for="favcolor">
+              Favorite Color
+            </label>
+            <br>
+            <input class="favcolor" type="color" required>
+          </div>
+          <button class="submitbtn" type="submit">Register Now</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Already registered? <a class="linktologin" href="login.html">Log in</a></p>
+  </footer>
+</body>
+
+</html>
