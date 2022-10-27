@@ -1,5 +1,4 @@
 
 # Git and Github
 
-This repo is to manage all projects in zuri training. Voila!
-
+This repo is to manage all projects in Zuri training. Voila!
