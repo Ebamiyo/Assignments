@@ -1,0 +1,1 @@
+#This is an image carousel project, built with HTML, CSS and Javascript.
